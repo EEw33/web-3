@@ -1,0 +1,154 @@
+body {
+  background: #f4f7fb;
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+}
+
+.main-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0d3b66;
+}
+
+.assignment-section {
+  background: #ffffff;
+  border: 1px solid #e3e8f0;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+}
+
+.task-label {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background: #eaf2ff;
+  color: #174ea6;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.typography-demo h3,
+.assignment-section h2,
+.feature-box h3,
+.portfolio-card h4,
+.portfolio-section h3 {
+  color: #0d6efd;
+}
+
+.typography-demo h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.typography-demo p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.media-layout {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.media-box {
+  flex: 1;
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-weight: 700;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.box-one { background: #4f46e5; }
+.box-two { background: #0ea5e9; }
+.box-three { background: #10b981; }
+
+.feature-box,
+.portfolio-card {
+  background: #ffffff;
+  border: 1px solid #dfe7f3;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.05);
+}
+
+.feature-box p,
+.portfolio-card p,
+.portfolio-section p {
+  margin-bottom: 0;
+  color: #425066;
+  line-height: 1.7;
+}
+
+.portfolio-hero {
+  min-height: 220px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1d4ed8, #60a5fa);
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navbar {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 1.8rem;
+  }
+
+  .typography-demo h3 {
+    font-size: 1.5rem;
+  }
+
+  .typography-demo p {
+    font-size: 0.95rem;
+  }
+
+  .media-layout {
+    flex-wrap: wrap;
+  }
+
+  .media-box {
+    flex: 1 1 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .assignment-section {
+    padding: 1rem;
+  }
+
+  .main-title {
+    font-size: 1.5rem;
+  }
+
+  .typography-demo h3 {
+    font-size: 1.35rem;
+  }
+
+  .typography-demo p {
+    font-size: 0.9rem;
+  }
+
+  .media-layout {
+    display: block;
+  }
+
+  .media-box {
+    width: 100%;
+    margin-bottom: 0.75rem;
+  }
+}
