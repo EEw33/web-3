@@ -1,13 +1,13 @@
 # Assignment #3: Responsive Web Design (Media Queries + Bootstrap Grid)
 
 ## Student Name
-Your Name
+Арлан Нарушев
 
 ## Group
 Web1
 
 ## GitHub Repository
-Add your public GitHub repository link here after uploading the project.
+[https://github.com/EEw33/web-3](https://github.com/EEw33/web-3)
 
 ## Tasks Included
 
@@ -32,7 +32,7 @@ Add your public GitHub repository link here after uploading the project.
 2. I used CSS media queries to adjust typography and layout for mobile, tablet, and desktop screens.
 3. I used Bootstrap's 12-column grid to build the responsive column layout.
 4. I added a Bootstrap navigation bar with a logo, right-aligned links, and the mobile hamburger menu.
-5. I combined the media-query layout and Bootstrap grid in a portfolio section to satisfy the final task.
+5. I combined the media-query layout and Bootstrap grid in a portfolio section with a project area, contact sidebar, and footer.
 6. I generated screenshots for each task and organized them in the screenshots folder.
 
 ## Notes

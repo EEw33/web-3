@@ -107,44 +107,58 @@
         <p class="task-label">Part 3 · Task 4</p>
         <h2>Responsive Portfolio Page</h2>
 
-        <div class="row align-items-center g-4 mb-4">
-          <div class="col-lg-6">
+        <div class="row g-4 mt-1">
+          <div class="col-12 col-lg-8">
             <h3>Portfolio introduction</h3>
-            <p>
+            <p class="mb-4">
               This sample portfolio combines custom media queries with the Bootstrap grid to
               create a flexible layout for modern devices.
             </p>
-            <button class="btn btn-primary">View Projects</button>
-          </div>
-          <div class="col-lg-6">
-            <div class="portfolio-hero">
-              <span>Portfolio</span>
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <div class="portfolio-card h-100">
+                  <h4>Web Design</h4>
+                  <p>Modern, responsive interfaces for desktop and mobile users.</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="portfolio-card h-100">
+                  <h4>Branding</h4>
+                  <p>Clean visuals and clear structure for digital communication.</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="portfolio-card h-100">
+                  <h4>Development</h4>
+                  <p>Front-end solutions that remain readable and accessible everywhere.</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="row g-3">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="portfolio-card">
-              <h4>Web Design</h4>
-              <p>Modern, responsive interfaces for desktop and mobile users.</p>
+          <aside class="col-12 col-lg-4" aria-labelledby="about-heading">
+            <div class="feature-box h-100">
+              <h3 id="about-heading">About Me</h3>
+              <p class="mb-3">
+                <strong>Arlan Narushev</strong><br />
+                Web design student interested in responsive interfaces and front-end development.
+              </p>
+              <h4 class="h5">Contact</h4>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  GitHub:
+                  <a href="https://github.com/EEw33/web-3">EEw33/web-3</a>
+                </li>
+              </ul>
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="portfolio-card">
-              <h4>Branding</h4>
-              <p>Clean visuals and clear structure for digital communication.</p>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="portfolio-card">
-              <h4>Development</h4>
-              <p>Front-end solutions that remain readable and accessible everywhere.</p>
-            </div>
-          </div>
+          </aside>
         </div>
       </section>
     </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-0">&copy; 2026 Arlan Narushev</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
